@@ -20,3 +20,11 @@ DATABASES = {
         'PASSWORD': 'root',
     }
 }
+
+<-------------------->
+this is our database
+<-------------------->
+
+https://docs.djangoproject.com/en/3.0/topics/auth/default/
+https://docs.djangoproject.com/en/3.0/topics/auth/customizing/
+https://www.freecodecamp.org/news/user-authentication-in-django-bae3a387f77
