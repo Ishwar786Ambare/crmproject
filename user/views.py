@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
-from user.admin import UserCreationForm, UserChangeForm, UserAdmin
+from user.forms import UserCreationForm, UserChangeForm, UserAdmin
 
 
 def user_view(request):
