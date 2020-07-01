@@ -3,7 +3,10 @@ multiuser login
 <-------------------->
 https://medium.com/@sowmendipta/creating-multiple-user-types-and-implementing-login-signup-with-email-instead-of-username-in-django-63a47be0e1af
 
-
+<-------------------->
+multiuser login -check this out
+<-------------------->
+https://www.codingforentrepreneurs.com/blog/how-to-create-a-custom-django-user-model
 
 
 <-------------------->
