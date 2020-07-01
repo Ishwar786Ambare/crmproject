@@ -2,3 +2,18 @@
 multiuser login
 <-------------------->
 https://medium.com/@sowmendipta/creating-multiple-user-types-and-implementing-login-signup-with-email-instead-of-username-in-django-63a47be0e1af
+
+
+
+
+<-------------------->
+this is our database
+<-------------------->
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'crm',
+        'USER': 'root',
+        'PASSWORD': 'root',
+    }
+}
