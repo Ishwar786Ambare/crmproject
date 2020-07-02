@@ -5,12 +5,10 @@
     <title>Document</title>
 </head>
 <body>
-{% if user.is_authenticated %}
 <form action="" method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <input type="submit" value="Login">
+    <input type="submit" value="Submit">
 </form>
-{% endif %}
 </body>
 </html>

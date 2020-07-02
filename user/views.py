@@ -18,4 +18,13 @@ def user_view(request):
 
 
 def admin_view(request):
-    pass
+    form = UserAdmin()
+    if request.method == 'POST':
+        form = user_view(request.POST)
+        if form.is_valid():
+            form.save()
+        return HttpResponse('Hi', user=request.user.get_email_field_name())
+    else:
+        form = UserAdmin()
+        return render(request, 'UserAdmin.html', {'form': form})
+
